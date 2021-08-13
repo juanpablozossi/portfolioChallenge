@@ -1,0 +1,261 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+header{
+  background: #040b14;
+}
+.HeaderR .navbar .container-fluid a img{
+  height: 30px;
+  
+}
+.about{
+  
+}
+.about img{
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+
+.skills .progress .skill {
+  padding: 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #040b14;
+}
+
+.progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.progress-bar-wrap {
+  background: #dce8f8;
+  height: 10px;
+}
+
+.progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: .9s;
+  background-color: #040b14;
+}
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #050d18;
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #1f5297;
+  position: relative;
+}
+
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: #e4edf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #1f5297;
+}
+.portfolio{
+  position: relative;
+}
+.portfolio img{
+  height: 100vh;
+  width: 100vw;
+}
+.portfolio img:hover{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  opacity: 0.5;
+}
+.portfolio-title{
+  position: absolute;
+  top: 20px;
+  right: 100px;
+  color: #040b14;
+  font-weight: bolder;
+}
+.portfolio-text{
+  color: #040b14;
+  padding: 4px;
+  position: absolute;
+  top: 420px;
+  left: 20px;
+  font-weight: bolder;
+}
+.portfolio-title2{
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  color: #040b14;
+  font-weight: bolder;
+  
+}
+.portfolio-text2{
+  color: #040b14;
+  padding: 4px;
+  position: absolute;
+  top: 380px;
+  right: 30px;
+  font-weight: bolder;
+}
+.footer{
+  background: linear-gradient(to bottom right, #7d7e80 55%, #040b14 45%);
+  position: relative;
+  height: 50vh;
+}
+.social-links{
+  padding-top: 60px;
+  font-size: 40px;
+}
+.footer img{
+  position: absolute;
+  height: 50px;
+  top: 80px;
+  right: 280px;
+  z-index: 0;
+}
+
+.footer:hover{
+  background: #040b14;
+}
+#footer .profile .social-links a {
+  font-size: 40px;
+  display: inline-block;
+  background: #212431;
+  color: #fff;
+  line-height: 1;
+  padding: 12px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 65px;
+  height: 65px;
+  transition: 0.3s;
+}
+.arrow{
+  color: #fff;
+  text-decoration: none;
+  font-size: 50px;
+  width: 6px;
+  position: absolute;
+  top: 208px;
+  right: 50px;
+}
+.copyright{
+  position: absolute;
+  top: 150px;
+  right: 250px;
+  color: #fff;
+}
+.nav-footer{
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+
+@media (max-width: 415px){
+  .portfolio img{
+    height: 50vh;
+    width: 100vw;
+  }
+  .portfolio-title{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    color: #040b14;
+  }
+  .portfolio-text{
+    color: #040b14;
+    padding: 4px;
+    position: absolute;
+    top: 220px;
+    left: -20px;
+    font-weight: bolder;
+  }
+  .portfolio-title2{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    color: #040b14;
+    font-weight: bolder;
+  }
+  .portfolio-text2{
+    color: #040b14;
+    position: absolute;
+    top: 220px;
+    right: 20px;
+    color: #040b14;
+  }
+  .copyright{
+    top: 200px;
+    right: 20px;
+  }
+  .nav-footer{
+    top: 30px;
+    right: 0;
+    color: #fff;
+  }
+  .arrow{
+    top: 270px;
+  }
+  .footer img{
+    height: 40px;
+    top: 170px;
+    right: 170px;
+  }
+}
+
+  
