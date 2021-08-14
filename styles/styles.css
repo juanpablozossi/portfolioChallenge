@@ -10,10 +10,10 @@ header{
 }
 .HeaderR .navbar .container-fluid a img{
   height: 30px;
-  
 }
 .about img{
   clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  border: 5px solid #040b14; 
 }
 .skills .progress {
   height: 60px;
@@ -107,15 +107,20 @@ header{
 }
 .portfolio{
   position: relative;
+  z-index: 1;
 }
 .portfolio img{
   height: 100vh;
   width: 100vw;
+  position: relative;
+  z-index: 1;
 }
 .portfolio img:hover{
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
-  opacity: 0.5;
+  opacity: .6;
+  z-index: -2;
+  
 }
 .portfolio-title{
   position: absolute;
@@ -123,14 +128,18 @@ header{
   right: 100px;
   color: #040b14;
   font-weight: bolder;
+  z-index: -1;
+  
 }
 .portfolio-text{
   color: #040b14;
   padding: 4px;
   position: absolute;
-  top: 420px;
+  top: 440px;
   left: 20px;
   font-weight: bolder;
+  z-index: 2;
+  
 }
 .portfolio-title2{
   position: absolute;
@@ -138,15 +147,17 @@ header{
   left: 100px;
   color: #040b14;
   font-weight: bolder;
+  z-index: -1;
   
 }
 .portfolio-text2{
   color: #040b14;
   padding: 4px;
   position: absolute;
-  top: 380px;
+  top: 440px;
   right: 30px;
   font-weight: bolder;
+  z-index: 2;
 }
 .footer{
   background: linear-gradient(to bottom right, #7d7e80 55%, #040b14 45%);
