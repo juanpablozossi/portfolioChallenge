@@ -215,7 +215,59 @@ header{
   top: 20px;
   right: 30px;
 }
-
+@media (min-width: 416px) and (max-width: 770px){
+  .portfolio img{
+    height: 50vh;
+    width: 100vw;
+  }
+  .portfolio-title{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    color: #040b14;
+  }
+  .portfolio-text{
+    color: #040b14;
+    padding: 4px;
+    position: absolute;
+    top: 380px;
+    left: -20px;
+    font-weight: bolder;
+    font-size: 15px;
+  }
+  .portfolio-title2{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    color: #040b14;
+    font-weight: bolder;
+  }
+  .portfolio-text2{
+    color: #040b14;
+    position: absolute;
+    top: 380px;
+    right: 20px;
+    
+    font-size: 15px;
+  }
+  .copyright{
+    top: 300px;
+    right: 200px;
+  }
+  .nav-footer{
+    top: 6git0px;
+    right: 0;
+    color: #fff;
+  }
+  .arrow{
+    top: 350px;
+  }
+  .footer img{
+    height: 50px;
+    top: 260px;
+    right: 320px;
+  }
+}
 @media (max-width: 415px){
   .portfolio img{
     height: 50vh;
