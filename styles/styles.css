@@ -139,6 +139,7 @@ header{
   left: 20px;
   font-weight: bolder;
   z-index: 2;
+  font-size: 25px;
   
 }
 .portfolio-title2{
@@ -158,6 +159,7 @@ header{
   right: 30px;
   font-weight: bolder;
   z-index: 2;
+  font-size: 25px;
 }
 .footer{
   background: linear-gradient(to bottom right, #7d7e80 55%, #040b14 45%);
